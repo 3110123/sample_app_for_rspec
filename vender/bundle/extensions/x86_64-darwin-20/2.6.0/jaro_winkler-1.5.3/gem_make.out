@@ -1,0 +1,18 @@
+current directory: /Users/saitoizumi/workspace/runteq/sample_app_for_rspec/vender/bundle/gems/jaro_winkler-1.5.3/ext/jaro_winkler
+/Users/saitoizumi/.rbenv/versions/2.6.4/bin/ruby -I /Users/saitoizumi/.rbenv/versions/2.6.4/lib/ruby/2.6.0 -r ./siteconf20210312-17412-1hih0lx.rb extconf.rb
+creating Makefile
+
+current directory: /Users/saitoizumi/workspace/runteq/sample_app_for_rspec/vender/bundle/gems/jaro_winkler-1.5.3/ext/jaro_winkler
+make "DESTDIR=" clean
+
+current directory: /Users/saitoizumi/workspace/runteq/sample_app_for_rspec/vender/bundle/gems/jaro_winkler-1.5.3/ext/jaro_winkler
+make "DESTDIR="
+compiling adj_matrix.c
+compiling codepoints.c
+compiling jaro.c
+compiling jaro_winkler.c
+linking shared-object jaro_winkler/jaro_winkler_ext.bundle
+
+current directory: /Users/saitoizumi/workspace/runteq/sample_app_for_rspec/vender/bundle/gems/jaro_winkler-1.5.3/ext/jaro_winkler
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 jaro_winkler_ext.bundle ./.gem.20210312-17412-1on4i41/jaro_winkler
