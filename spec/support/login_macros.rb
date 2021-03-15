@@ -1,4 +1,4 @@
-module LoginModule
+module LoginMacros
   def login(user)
     visit root_path
     click_link 'Login'
