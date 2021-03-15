@@ -70,7 +70,7 @@ RSpec.describe 'Users', type: :system do
           fill_in 'Content', with: 'test_content'
           click_button 'Create Task'
           expect(page).to have_content '1 error prohibited this task from being saved:'
-          expect(page).to have_content 'Title can't be blank'
+          expect(page).to have_content "Title can't be blank"
           expect(current_path).to eq tasks_path
         end
       end
